@@ -1,6 +1,6 @@
 const route = require("express").Router();
 
-route.get("/users", (req, res, next) => {
+route.get("/", (req, res, next) => {
   const allUsers = [
     {
       firstName: "Akash",
